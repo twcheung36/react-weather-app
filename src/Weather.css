@@ -1,0 +1,100 @@
+.Weather .weather-temperature,
+.time-date,
+#description {
+  text-align: right;
+}
+
+.Weather #temperature-numbers {
+  color: black;
+}
+
+.Weather .day-trend {
+  text-transform: uppercase;
+}
+
+.Weather {
+  margin: 30px auto;
+  padding: 20px;
+  font-size: 18px;
+  color: #2575fc;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  border-radius: 0.5cm;
+}
+
+.Weather .city {
+  font-weight: bold;
+}
+
+.Weather .weather-temperature .active {
+  color: black;
+  cursor: default;
+}
+
+.Weather .weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.Weather .location {
+  margin-bottom: 15px;
+}
+
+.Weather .textbox,
+.day-trend,
+#forecast {
+  margin-bottom: 10px;
+}
+
+.Weather .time-date,
+.city,
+#description {
+  text-transform: capitalize;
+}
+
+.Weather .moreinfo {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.Weather .hourly-forecast {
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #30cfd0;
+  border-radius: 0.2cm;
+}
+
+.Weather .day-trend {
+  text-align: center;
+  border: 1px solid #30cfd0;
+  border-radius: 0.2cm;
+}
+
+.Weather button {
+  display: block;
+  padding: 10px auto;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  transition: all 200ms ease-in-out;
+}
+
+.Weather button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.Weather img {
+  max-width: 22%;
+}
+
+.Weather img.icon {
+  max-width: 80%;
+}
+
+.Weather #units {
+  font-size: 22px;
+}
+
+.Weather .footer {
+  text-align: left;
+  font-size: 12px;
+}
