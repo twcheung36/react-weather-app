@@ -5,25 +5,27 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
-      <h1>Weather App</h1>
-      <footer>
-        This project was coded by{" "}
-        <a
-          href="https://www.linkedin.com/in/twcheung/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Wing Cheung
-        </a>{" "}
-        and is{" "}
-        <a
-          href="https://github.com/twcheung36/react-weather-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          open-sourced on GitHub
-        </a>
-      </footer>
+      <div className="container">
+        <h1>Weather App</h1>
+        <footer>
+          This project was coded by{" "}
+          <a
+            href="https://www.linkedin.com/in/twcheung/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Wing Cheung
+          </a>{" "}
+          and is{" "}
+          <a
+            href="https://github.com/twcheung36/react-weather-app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced on GitHub
+          </a>
+        </footer>
+      </div>
     </div>
   );
 }
