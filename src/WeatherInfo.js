@@ -23,11 +23,12 @@ export default function WeatherInfo(props) {
           </h5>
         </div>
         <div className="col-6">
-          <h6 className="text-capitalize" id="description">
+          <h5 className="text-capitalize" id="description">
             {props.data.description}
-          </h6>
+          </h5>
         </div>
       </div>
+
       {/*<div className="row">
         <div className="col-8">
           <div className="location">

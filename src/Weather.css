@@ -56,6 +56,7 @@
 
 .Weather .moreinfo {
   text-align: center;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
@@ -84,14 +85,6 @@
 .Weather button:hover {
   opacity: 0.8;
   cursor: pointer;
-}
-
-.Weather img {
-  max-width: 22%;
-}
-
-.Weather img.icon {
-  max-width: 80%;
 }
 
 .Weather #units {
