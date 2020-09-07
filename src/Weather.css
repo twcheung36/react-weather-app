@@ -1,9 +1,10 @@
 .Weather .weather-temperature,
-.time-date {
+#description {
   text-align: right;
 }
 
-.Weather #description {
+.Weather,
+.time-date {
   text-align: left;
 }
 
