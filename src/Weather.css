@@ -29,7 +29,7 @@
   font-weight: bold;
 }
 
-.Weather .weather-temperature .active {
+.Weather .weather-temperature {
   color: black;
   cursor: default;
 }
