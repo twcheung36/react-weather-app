@@ -1,7 +1,10 @@
 .Weather .weather-temperature,
-.time-date,
-#description {
+.time-date {
   text-align: right;
+}
+
+.Weather #description {
+  text-align: left;
 }
 
 .Weather #temperature-numbers {
@@ -21,7 +24,7 @@
   border-radius: 0.5cm;
 }
 
-.Weather .city {
+.Weather .headlineCity {
   font-weight: bold;
 }
 
@@ -45,7 +48,7 @@
 }
 
 .Weather .time-date,
-.city,
+.headlineCity,
 #description {
   text-transform: capitalize;
 }
